@@ -1,0 +1,50 @@
+input {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    font-size: large;
+    background-color: aliceblue;
+    line-break: auto;
+    
+}
+button {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    font-size: small;
+    background-color: crimson;
+    line-break: auto; 
+}
+input#XO{
+    background-color: cadetblue;
+}
+h1 {
+    text-align: center;
+}
+p {
+    text-align: center; 
+}
+div {
+    height: 110px;
+    width: 390px;
+    margin: 10px;
+    align-items: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+}
+
+input#iniciar {
+    background-color: gray;
+    font-size: large;
+    
+}
+input#limpar {
+    background-color: blueviolet;
+    font-size: large;
+    
+}
+body {
+    background-color: darkkhaki;
+}

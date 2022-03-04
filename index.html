@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    
+    <div>
+        <h1>Jogo da Velha</h1>
+        <p><strong>Placar:</strong></p>
+        <p id="placar"><strong>X:0 O:0</strong></p>
+    </div>
+    <div>
+        <input type="button" value=" " id="botao-0" onclick="aparecerXO(0)"> <input type="button" value=" " id="botao-1" onclick="aparecerXO(1)"> <input type="button" value=" " id="botao-2" onclick="aparecerXO(2)">
+    </div>
+
+    <div>
+        <input type="button" value=" " id="botao-3" onclick="aparecerXO(3)"> <input type="button" value=" " id="botao-4" onclick="aparecerXO(4)"> <input type="button" value=" " id="botao-5" onclick="aparecerXO(5)">
+    </div>
+
+    <div>
+        <input type="button" value=" " id="botao-6" onclick="aparecerXO(6)"> <input type="button" value=" " id="botao-7" onclick="aparecerXO(7)"> <input type="button" value=" " id="botao-8" onclick="aparecerXO(8)">
+    </div>
+
+    <div>
+        <input type="button" value="Iniciar" id="iniciar" onclick="iniciar()">
+        <input type="button" value="X" id="XO" onclick="trocarXporO()">
+        <button type="button" id="limpar" onclick="limparPlacar()">Limpar Placar</button>
+    </div>
+    <p><em>&copy; RF Company</em></p>
+    
+    <script src="script.js"></script>
+</body>
+</html>
